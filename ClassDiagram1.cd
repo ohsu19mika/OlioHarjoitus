@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OlioEsimerkki.Geocache">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACBEAgAAAQAAAAEAAAAAAAIAAAAAAEAAAAAAEAA=</HashCode>
+      <FileName>Geocache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OlioEsimerkki.CacheList">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CacheList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="caches" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="OlioEsimerkki.GPX_Reader.Reader" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABAAAAAACBAAIACICAAAgCAAAACAAAIA=</HashCode>
+      <FileName>GPX_Reader\Reader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OlioEsimerkki.Location">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAEAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Location.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.594" />
+  </Class>
+  <Class Name="OlioEsimerkki.Waypoint">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="OlioEsimerkki.Waypoint.WaypointType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Waypoint.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Waypoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OlioEsimerkki.ConsoleUI">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAigASAAAAAAABAIAAgIAAAAABABEBAAAAAAGAAI=</HashCode>
+      <FileName>ConsoleUI.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="myReader" />
+      <Field Name="home" />
+      <Field Name="cacheList" />
+      <Field Name="fileHandling" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OlioEsimerkki.BinaryFileHandling" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BinaryFileHandling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OlioEsimerkki.Map.MapPin" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Map\MapPin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OlioEsimerkki.Program">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="myReader" />
+      <Field Name="consoleUI" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="OlioEsimerkki.GPX_Reader.IReader" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAACIAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>GPX_Reader\IReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
