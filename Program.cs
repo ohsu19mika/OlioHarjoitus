@@ -20,6 +20,8 @@ namespace OlioEsimerkki
             myReader = new Reader(File);
             consoleUI = new ConsoleUI(myReader);
 
+            
+            
             //Opens console UI
             consoleUI.StartConsoleUI();
         }
