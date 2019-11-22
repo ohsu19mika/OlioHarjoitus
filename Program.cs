@@ -19,9 +19,7 @@ namespace OlioEsimerkki
             String File = "finds.gpx";
             myReader = new Reader(File);
             consoleUI = new ConsoleUI(myReader);
-
-            
-            
+                                    
             //Opens console UI
             consoleUI.StartConsoleUI();
         }
