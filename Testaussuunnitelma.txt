@@ -1,0 +1,13 @@
+﻿Testaussuunnitelma:
+
+1. Ohjelma lähtee käyntiin
+2. Ohjelma osaa tulostaa ohjeen
+3. Ohjelma osaa printata kaikki GC koodit tiedostosta
+4. Ohjelma osaa lisätä halutut kätköt sisäiseen listaan
+5. Ohjelma osaa printata sisäisen listan
+6. Ohjelma osaa tallentaa listan tiedostoon
+7. Ohejlma osaa lukea listan tiedostosta
+8. Ohjelma osaa avata kätkön kartalle
+9. Ohjelma osaa laskea etäisyyden kätkölle
+10. Ohjelma osaa vaihtaa tietoa minkä mukaan haetaan sisäiseen listaan
+11. Ohjelman saa sammutettua
