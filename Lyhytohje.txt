@@ -1,0 +1,5 @@
+﻿Ohjelma lukee finds.gpx tiedostosta muutaman geokätkön tiedot (tietoja muutettu oikeista).
+Ohjelma sisältää myös sisäisen ohjeen.
+
+- Ohjelmalla pystyy luomaan sisäisen listan haluttuja tietoja sisältävistä kätköistä, jonka pystyy tämän jälkeen tallentamaan tiedostoon(sarjallistettu binääri) ja myös avaamaan sieltä uudelleen.
+- Yksittäisen kätkön sijainnin pystyy näyttämään kartalla tai laskemaan sijainnin sinne kotoa (noin Framin kohdalta).
