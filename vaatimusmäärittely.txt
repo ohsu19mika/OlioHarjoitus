@@ -1,0 +1,20 @@
+﻿Vaatimusmäärittely GPX-tiedoston käsittely ohjelmalle
+
+1. GPX-tiedoston luku (Reader luokka)
+	-	Lukee tietyntyyppisen GPX-tiedoston oikein.
+	-	Palauttaa GPX:stä luettuja tietoja merkkijonona, joko kaikista tai tietystä kätköstä tiedostosta.
+	-	Luo Geocache muotoisen olion ja palauttaa sen muulle ohjelmalle.
+	-	GPX-tiedostosta voidaan poistaa kuvaustekstit, vinkit ja lokit. Lopputulos tallennetaan uudella nimellä, finds_light.gpx
+	-	GPX-tiedoston kätköjen koordinaatteihin voidaan "sotkea" lisäämällä satunnainen lisäys niihin. Lopputulos tallennetaan uudella nimellä, finds_random.gpx
+
+2. Binääritiedoston kirjoitus ja luku (BinaryFileHandling luokka)
+	-	Voidaan tallentaa sarjallistettavaa oliodataa käyttäjän määrittelemään tiedostoon.
+	-	Voidaan lukea sarjallistettua oliodataa käyttäjän määrittelemästä tiedostosta.
+
+3. Käyttöliittymä (ConsoleUI luokka)
+	-	Ohjelmalla on konsolipohjainen käyttöliittymä
+	-	Käyttöliittymä opastaa käytössä
+	-	Voidaan tulostaa Reader luokan antamia tietoja käyttäjälle
+	-	Voidaan luoda kätkölista (CacheList olio), käyttäjän määrittelemällä sisällöllä
+			-	Lista voidaan tallentaa ja lukea kohdan 2 binääritiedostonkäsittelyn avulla.
+	-	Käyttäjän määrittelemän kätkön sijainti voidaan avata kartalle.

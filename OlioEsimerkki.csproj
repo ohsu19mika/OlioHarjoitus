@@ -81,6 +81,7 @@
     <Content Include="Luokkakaavio.png" />
     <Content Include="Lyhytohje.txt" />
     <Content Include="Testaussuunnitelma.txt" />
+    <Content Include="Vaatimusmäärittely.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
