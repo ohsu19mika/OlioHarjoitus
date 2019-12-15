@@ -78,6 +78,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Luokkakaavio.png" />
     <Content Include="Lyhytohje.txt" />
     <Content Include="Testaussuunnitelma.txt" />
   </ItemGroup>
