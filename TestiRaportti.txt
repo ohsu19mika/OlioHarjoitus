@@ -1,0 +1,14 @@
+﻿Distance from home:
+Ei tunnista pieniä kirjaimia
+
+Ohjelma osasi näyttää kohteen kartalla.
+
+File save/load:
+Laittamalla L-kirjaimen ohjelma crashaa.
+S-kirjain toimii hyvin (ilman ohjelman crashaamista) ja antaa hyvin informatiivisen ilmoituksen.
+Tunnistaa sekä pienet että isot kirjaimet. 
+
+
+
+
+
